@@ -1,0 +1,142 @@
+body {
+    background-color: #000000;
+    background-image: url('../img/fundo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: arial;
+    font-size: 18px;
+    color: #003399;
+}
+
+/* Container onde todo o conteúdo esta conectado */
+
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    padding: 41px;
+
+    background-color: #d1efff7a;
+    border: 5px solid #000066;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Banner acima da linha do container */
+
+#bannerFamilia {
+    display: block;
+    margin: -31% auto;
+    position: relative;
+    z-index: 2;
+    padding: 0px 0 33% 0;
+    max-width: 100%;
+}
+
+/* Titulos, Parágrafos e hr */
+
+.titleSimpsons {
+    font-size: 30px;
+    color: #F44C2D;
+}
+
+.subtitleSimpsons {
+    text-align: center;
+    font-family: tahoma;
+    font-size: 24px;
+    font-weight: bold;
+    color: #003399;
+}
+
+.titleSimpsons,
+.subtitleSimpsons {
+    margin: 20px 0 20px 0;
+    display: inline-block;
+}
+
+.descSimpsons {
+    margin: 20px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 24px;
+}
+
+hr{
+    border: 1px solid #000066;
+    border-radius: 10px;
+}
+
+
+/* Seção - Sobre */
+.sectAbout {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.quadroSimpsons {
+    width: 200px;
+}
+
+
+/* Seção - Personagens */
+.sectPersons{
+    display: flex;
+    flex-direction: column;
+}
+
+.persons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.personagens {
+    border-radius: 50%;
+    border: 4px solid #000066;
+    display: inline-block;
+}
+
+.personsDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+}
+
+.imgDescSimpsons {
+    text-align: justify;
+    line-height: 24px;
+}
+
+/* Seção - Árvore Genealógica */
+
+.sectArvore {
+    margin-bottom: 20px;
+}
+
+#arvoreFamilia {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Seção - Temporadas */
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #003399;
+    transition: all 0.3s;
+}
+
+a:hover{
+    color: #000000;
+    font-weight: bold;
+}
